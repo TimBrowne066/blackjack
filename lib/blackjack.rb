@@ -22,7 +22,9 @@ end
 player.calculate_score
 if player.calculate_score == 21
   puts "BLACKJACK!!!"
-else
+end
+
+if player.calculate_score < 21
   puts "YOUR SCORE: #{player.calculate_score}\n\n"
 end
 
